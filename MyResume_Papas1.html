@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Resume</title>
+    <style>
+
+        * {
+            box-sizing: border-box;
+
+        }
+        .row::after {
+            content: "";
+            clear: both;
+            display: table;
+        }
+
+     [class*="col-"] {
+            float: left;
+            padding: 15px;
+
+        }
+
+
+/* For mobile phones: */
+@media only screen and (max-width: 767px) {
+    div {background-color:#FBCEB1;}
+    [class*="col-"] {
+        
+            width: 100%;
+            font-size: 20px;
+            }
+ }
+/* For tablets: */      
+@media only screen and (min-width: 768px) {
+   div {background-color:#D19FE8;}
+  .col-s-1 {width: 8.33%;}
+  .col-s-2 {width: 16.66%;}
+  .col-s-3 {width: 25%;}
+  .col-s-4 {width: 33.33%;}
+  .col-s-5 {width: 41.66%;}
+  .col-s-6 {width: 50%;}
+  .col-s-7 {width: 58.33%;}
+  .col-s-8 {width: 66.66%;}
+  .col-s-9 {width: 75%;}
+  .col-s-10 {width: 83.33%;}
+  .col-s-11 {width: 91.66%;}
+  .col-s-12 {width: 100%;}
+
+}
+
+
+/*For Desktop*/
+@media only screen and (min-width: 1024px) {
+   div {background-color:#ACE1AF;  }
+        .col-1 { width: 8.33%; }
+        .col-2 { width: 16.66%; }
+        .col-3 { width: 25%; }
+        .col-4 { width: 33.33%; }
+        .col-5 { width: 41.66%; }
+        .col-6 { width: 50%; }
+        .col-7 { width: 58.33%; }
+        .col-8 { width: 66.66%; }
+        .col-9 { width: 75%; }
+        .col-10 { width: 83.33%; }
+        .col-11 { width: 91.66%; }
+        .col-12 { width: 100%; }
+
+     }  
+       
+    html {
+            font-family: "Helvetica", sans-serif;
+        }
+
+        .header {
+            background-color: #36454F;
+            color: #ffffff;
+            padding: 15px;
+            text-align: center;
+        }
+
+        .frame {
+            padding: 25px;
+            height: 300px;
+            text-align: justify;
+            border: 1px solid white;
+            gap: 10px;
+        }
+       
+           
+        
+    </style>
+
+</head>
+
+<body style="background-color: lightsteelblue;">
+ 
+    <div class="header">
+
+        <h1><b>‧₊˚✧ Mia Khryselle D. Papas ✧˚₊‧</b></h1>
+
+
+    </div>
+ 
+   
+    <div class="row">
+        
+ 
+       <div class="col-4 col-s-6 frame">
+         <h3 style="font-weight: bold; text-align: center;">★ Personal Information ★</h3>
+         <p><b>Age</b>: <i>15</i></p>
+         <p><b>Gender</b>: <i>Female</i></p>
+         <p><b>Birth date</b>: <i>March 14, 2009</i></p>
+         <p><b>Birth place</b>: <i>Manila City, Philippines</i></p>
+        </div>
+
+        <div class="col-4 col-s-6 frame">
+         <h3 style=" font-weight: bold; text-align: center;">★ Contact Details ★</h3>
+         <p><b>Mobile Number</b>: <i>09177139949</i></p>
+         <p><b>Landline</b>: <i>N/A</i></p>
+         <p><b>Email</b>: <i>mkdpapas@manresaschool.edu.ph</i></p>
+
+        </div>
+
+        <div class="col-4 col-s-12 frame">
+         <h3 style="font-weight: bold; text-align: center;">★ Educational Attainment ★</h3>
+        <p><b>Junior High School</b>: <i>Manresa School</i></p>
+        <p><b>Grade School</b>: <i>Manresa School</i></p>
+        <p><b>Elementary School</b>: <i>Manresa School</i></p>
+        </div>
+
+
+ </div>
+</body>
+</html>
